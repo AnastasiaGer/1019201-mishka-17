@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Anastasia Germanova](https://up.htmlacademy.ru/adaptive/17/user/1019201).
-* Наставник: [`Удовенко Марина`](https://htmlacademy.ru/profile/id7570).
+* Наставник: [Удовенко Марина](https://htmlacademy.ru/profile/id7570).
 
 ---
 
