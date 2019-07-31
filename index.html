@@ -90,7 +90,7 @@
 
         </div>
 
-        <button class="popular__btn" type="button">
+        <button class="popular__btn" type="submit">
           Заказать
         </button>
 
@@ -188,6 +188,51 @@
 
     </footer>
 
+  </div>
+
+  <div class="overlay"></div>
+  <div class="modal-form--add">
+    <div class="modal-form__wrap">
+      <h2 class="modal-form__header">Добавить в корзину</h2>
+      <p class="modal-form__content">Выберите размер:</p>
+
+      <form class="modal-form" action="/" method="post">
+
+        <div class="modal-form__section  modal-form__section--size">
+          <ul class="modal-form__size">
+            <li class="modal-form__size-item">
+              <label class="modal-form__radio-control">
+                <input type="radio" name="type" value="accessory" checked>
+                <span class="modal-form__radio-icon">
+                  <span class="modal-form__radio-icon-tick"></span>
+                </span>
+                <span class="modal-form__radio-label">S</span>
+              </label>
+            </li>
+            <li class="modal-form__size-item">
+              <label class="modal-form__radio-control">
+                <input type="radio" name="type" value="accessory">
+                <span class="modal-form__radio-icon">
+                  <span class="modal-form__radio-icon-tick"></span>
+                </span>
+                <span class="modal-form__radio-label">M</span>
+              </label>
+            </li>
+            <li class="modal-form__size-item">
+              <label class="modal-form__radio-control">
+                <input type="radio" name="type" value="accessory">
+                <span class="modal-form__radio-icon">
+                  <span class="modal-form__radio-icon-tick"></span>
+                </span>
+                <span class="modal-form__radio-label">L</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </form>
+
+      <button class="btn modal-dialog__btn-add" type="submit">Добавить</button>
+    </div>
   </div>
 
 </body>

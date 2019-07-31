@@ -71,6 +71,7 @@
                 <p class="catalog-list__item-features">Рост 30 см, вес 200 г</p>
               </div>
               <span class="catalog-list__busket-icon">1 200 руб.</span>
+              <button class="btn catalog-list__btn-busket" type="submit">Добавить в корзину</button>
             </div>
           </li>
 
@@ -84,6 +85,7 @@
                 <p class="catalog-list__item-features">Диаметр 15 см, высота 10 см</p>
               </div>
               <span class="catalog-list__busket-icon">690 руб.</span>
+              <button class="btn catalog-list__btn-busket" type="submit">Добавить в корзину</button>
             </div>
           </li>
 
@@ -99,6 +101,7 @@
                 <p class="catalog-list__item-features">Диаметр 30 см, высота 30 см</p>
               </div>
               <span class="catalog-list__busket-icon">1 500 руб.</span>
+              <button class="btn catalog-list__btn-busket" type="submit">Добавить в корзину</button>
             </div>
           </li>
 
@@ -107,7 +110,8 @@
 
       <section class="video">
         <h2 class="video__header video__header-icon">Процесс производства</h2>
-        <p class="video__content">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+        <p class="video__content">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как
+          появляются наши товары.</p>
 
         <section class="video__item">
           <picture>
@@ -120,33 +124,82 @@
           </div>
         </section>
 
+        <button class="video__btn" type="submit">
+          Сделать заказ
+        </button>
+
       </section>
 
     </main>
 
     <footer class="page-footer">
-        <p class="page-footer__social">
-          <span class="social-links">
-            <a class="social-link" href="http://instagram.com">
-              Мы в Инстаграм
-            </a>
-            <a class="social-link" href="http://facebook.com">
-              Мы в Фейсбуке
-            </a>
-            <a class="social-link" href="http://twitter.com">
-              Мы в Твиттере
-            </a>
-          </span>
-        </p>
-
-        <p class="page-footer__copyright">
-          <a class="page-footer__copyright-link" href="https://htmlacademy.ru">
-            Разработано
+      <p class="page-footer__social">
+        <span class="social-links">
+          <a class="social-link" href="http://instagram.com">
+            Мы в Инстаграм
           </a>
-        </p>
+          <a class="social-link" href="http://facebook.com">
+            Мы в Фейсбуке
+          </a>
+          <a class="social-link" href="http://twitter.com">
+            Мы в Твиттере
+          </a>
+        </span>
+      </p>
 
-      </footer>
+      <p class="page-footer__copyright">
+        <a class="page-footer__copyright-link" href="https://htmlacademy.ru">
+          Разработано
+        </a>
+      </p>
 
+    </footer>
+
+  </div>
+
+  <div class="overlay"></div>
+  <div class="modal-form--add">
+    <div class="modal-form__wrap">
+      <h2 class="modal-form__header">Добавить в корзину</h2>
+      <p class="modal-form__content">Выберите размер:</p>
+
+      <form class="modal-form" action="/" method="post">
+
+        <div class="modal-form__section  modal-form__section--size">
+          <ul class="modal-form__size">
+            <li class="modal-form__size-item">
+              <label class="modal-form__radio-control">
+                <input type="radio" name="type" value="accessory" checked>
+                <span class="modal-form__radio-icon">
+                  <span class="modal-form__radio-icon-tick"></span>
+                </span>
+                <span class="modal-form__radio-label">S</span>
+              </label>
+            </li>
+            <li class="modal-form__size-item">
+              <label class="modal-form__radio-control">
+                <input type="radio" name="type" value="accessory">
+                <span class="modal-form__radio-icon">
+                  <span class="modal-form__radio-icon-tick"></span>
+                </span>
+                <span class="modal-form__radio-label">M</span>
+              </label>
+            </li>
+            <li class="modal-form__size-item">
+              <label class="modal-form__radio-control">
+                <input type="radio" name="type" value="accessory">
+                <span class="modal-form__radio-icon">
+                  <span class="modal-form__radio-icon-tick"></span>
+                </span>
+                <span class="modal-form__radio-label">L</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </form>
+
+      <button class="btn modal-dialog__btn-add" type="submit">Добавить</button>
+    </div>
   </div>
 
 </body>
