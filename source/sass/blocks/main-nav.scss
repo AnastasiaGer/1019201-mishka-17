@@ -2,54 +2,116 @@
   * ===========================================================
   * MAIN NAVIGATION mobile
   * ===========================================================
-  */
-  .main-nav {
-    font-size: 18px;
-    line-height: 40px;
-    font-family: "Open Sans", "Arial", sans-serif;
-    color: #000000;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 24px;
+*/
+.main-nav {
+  position: relative;
+
+  font-size: 18px;
+  line-height: 40px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+
+  z-index: 100;
+
+  &--nojs .main-nav__btn {
+  display: none;
+  }
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+
+  overflow: hidden;
+}
+
+.main-nav__item {
+  height: 79px;
+  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+}
+
+.main-nav__link {
+  display: block;
+  padding: 30px 40px 30px 80px;
+
+  text-align: left;
+  text-decoration: none;
+
+  color: #000000;
+
+  &[href]:hover,
+  &[href]:active {
+    opacity: 0.6;
+    cursor: pointer;
   }
 
-  .main-nav__list {
-    margin: 0;
-    padding: 0;
-
-    list-style-type: none;
-
-    overflow: hidden;
+  &[href]:disabled {
+    opacity: 0.3;
+    cursor: pointer;
   }
-  .main-nav__item {
-      box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+}
+
+.main-nav__control {
+  position: relative;
+
+  min-height: 56px;
+}
+
+.main-nav__btn {
+  position: relative;
+
+  float: right;
+
+  margin: 5px;
+  padding: 0;
+
+  width: 20px;
+  height: 14px;
+
+  font-size: 0;
+
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.main-nav__btn-icon {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  fill: #81b3d2;
+
+  &--menu {
+    width: 20px;
+    height: 14px;
+
+    margin-top: 20px;
+    margin-left: -36px;
   }
 
-  .main-nav__link {
-    display: block;
-    padding: 30px 40px 30px 80px;
+   &--cross {
+    width: 21px;
+    height: 20px;
 
-    text-align: left;
-    text-decoration: none;
-
-    color: #000000;
-
-    &[href]:hover,
-    &[href]:active {
-      opacity: 0.6;
-      cursor: pointer;
-    }
-
-    &[href]:disabled {
-      opacity: 0.3;
-      cursor: pointer;
-    }
+    margin-top: 16.5px;
+    margin-left: -36.5px;
   }
-  /**
+}
+
+/**
     * ===========================================================
     * MAIN NAVIGATION tablet/desktop
     * ===========================================================
-    */
+*/
+
 @media (min-width: $tablet-width) {
   .main-nav__list {
     display: flex;
