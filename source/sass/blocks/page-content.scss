@@ -1,0 +1,35 @@
+/**
+  * ===========================================================
+  * PAGE CONTENT mobile
+  * ===========================================================
+*/
+.page-content {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+/**
+* ===========================================================
+* PAGE CONTENT tablet
+* ===========================================================
+*/
+@media (min-width: $tablet-max-width) {
+  .page-content {
+    width: $tablet-max-width;
+
+    margin: 0 auto;
+  }
+}
+/**
+* ===========================================================
+* PAGE CONTENT desktop
+* ===========================================================
+*/
+
+@media (min-width: $desktop-max-width) {
+  .page-content {
+    width: $desktop-max-width;
+
+    margin: 0 auto;
+  }
+}

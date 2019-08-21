@@ -1,0 +1,54 @@
+/**
+* ===========================================================
+* btn SECTION
+* ===========================================================
+*/
+.btn {
+  display: inline-block;
+  padding: 17px 30px 15px 30px;
+
+  color: #444444;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+
+  border: 2px solid #444444;
+  background-color: #ffffff;
+
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #444444;
+    border: 2px solid #444444;
+  }
+
+  &:active {
+    opacity: 0.3;
+    color: #ffffff;
+    border: 2px solid #444444;
+    background-color: #444444;
+  }
+
+  &:disabled {
+
+    background-color: #e5e5e5;
+
+    &:hover {
+      background-color: #e5e5e5;
+    }
+
+    &:active {
+      color: #ffffff;
+      background-color: #e5e5e5;
+    }
+  }
+}

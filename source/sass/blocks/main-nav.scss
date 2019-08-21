@@ -6,8 +6,6 @@
 .main-nav {
   position: relative;
 
-  font-size: 18px;
-  line-height: 40px;
   font-family: "Open Sans", "Arial", sans-serif;
   color: #000000;
   font-size: 17px;
@@ -17,7 +15,7 @@
   z-index: 100;
 
   &--nojs .main-nav__btn {
-  display: none;
+    display: none;
   }
 }
 
@@ -97,7 +95,7 @@
     margin-left: -36px;
   }
 
-   &--cross {
+  &--cross {
     width: 21px;
     height: 20px;
 
