@@ -15,24 +15,14 @@
 
   padding: 23px 80px;
 
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-weight: normal;
+  color: #000000;
 
-  background-color: #fefefe;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18px;
+
+  background-color: #f1f1f1;
   text-align: center;
-}
-
-.page-footer__header {
-  margin-top: 14px;
-  margin-bottom: 32px;
-  padding-left: 10px;
-
-  font-size: 21px;
-  line-height: 26px;
-
-  width: 136px;
-
-  text-transform: uppercase;
 }
 
 .social-links {
@@ -51,7 +41,7 @@
 
   font-size: 0;
 
-  background-color: #81b3d2;
+  background-color: #f1f1f1;
 
   &:hover {
     background-color: #669ec0;
@@ -72,27 +62,39 @@
   top: 50%;
   left: 50%;
 
-  width: 18px;
-  height: 18px;
-
   margin-top: -9px;
   margin-left: -9px;
 
   fill: #ffffff;
+
+  &--instagram {
+    width: 22px;
+    height: 21px;
+  }
+
+  &--facebook {
+    width: 15px;
+    height: 28px;
+  }
+
+  &--twitter {
+    width: 23px;
+    height: 20px;
+  }
 }
 
 .page-footer__copyright {
   position: relative;
 
   margin: 0 auto;
-  margin-top: 36px;
 
   width: 139px;
 
-  font-size: 14px;
-  line-height: 26px;
+  color: #000000;
 
-  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18px;
   text-align: center;
 }
 

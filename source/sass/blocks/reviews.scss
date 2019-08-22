@@ -8,28 +8,26 @@
   padding-bottom: 48px;
 
   background-color: #ffffff;
-
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-weight: normal;
-
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .reviews__header {
   margin: 0;
   margin-top: 12px;
 
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 .reviews__content {
   margin-bottom: 34px;
   margin-top: 19px;
 
-  font-size: 14px;
-  line-height: 24px;
+  color: #444444;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .reviews__btn {
@@ -37,6 +35,16 @@
   padding-right: 0;
 
   min-width: 280px;
+}
+
+.reviews__name {
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.reviews__email {
+  font-weight: 400;
+  line-height: 30px;
 }
 /**
 * ===========================================================

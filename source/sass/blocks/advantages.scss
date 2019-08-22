@@ -4,5 +4,134 @@
 * ===========================================================
 */
 .advantages {
-  background-color: #eeeeee;
+  background-color: #ffffff;
+}
+
+.advantages__header {
+  color: #000000;
+
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+
+  overflow: hidden;
+}
+
+.advantages__item {
+  position: relative;
+  padding: 30px 30px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  color: #000000;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+
+  overflow: hidden;
+
+  background-color: #ffffff;
+}
+
+.advantages__content {
+  color: #000000;
+
+  margin: 0;
+  margin-top: 49px;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.advantages__content--flower::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 37px;
+
+  top: 25px;
+  left: 21px;
+
+  background-image: url("../img/icon-feature-flower.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantages__content--money::before {
+  content: "";
+  position: absolute;
+  width: 47px;
+  height: 27px;
+
+  top: 17px;
+  left: 25px;
+
+  background-image: url("../img/icon-feature-money.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantages__content--heart::before {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 27px;
+
+  top: 23px;
+  left: 18px;
+
+  background-image: url("../img/icon-feature-heart.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantages__content--ball::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 34px;
+
+  top: 23px;
+  left: 18px;
+
+  background-image: url("../img/icon-feature-ball.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantages__content--rocket::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 23px;
+
+  top: 23px;
+  left: 18px;
+
+  background-image: url("../img/icon-feature-rocket.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantages__content--gift::before {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 32px;
+
+  top: 23px;
+  left: 18px;
+
+  background-image: url("../img/icon-feature-gift.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

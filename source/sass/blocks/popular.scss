@@ -7,5 +7,47 @@
   width: 320px;
 
   margin: 0 auto;
+  margin-top: 165px;
   padding: 0;
+}
+
+.popular-header {
+  color: #000000;
+
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.popular__title {
+  color: #63d1bb;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.popular__item-description {
+  color: #444444;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.popular__item-content {
+  color: #444444;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.popular__item-price {
+  color: #444444;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
 }
