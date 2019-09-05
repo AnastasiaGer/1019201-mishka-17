@@ -5,6 +5,16 @@
 */
 .social-links {
   font-size: 0;
+
+  margin-left: 53px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 10px 15px;
 }
 
 .social-links__item {
@@ -12,7 +22,7 @@
 
   display: inline-block;
 
-  margin: 0 3px;
+  margin: 5px 6px;
 
   width: 46px;
   height: 48px;

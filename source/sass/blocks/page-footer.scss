@@ -13,8 +13,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
-  padding: 23px 80px;
-
   color: #000000;
 
   font-size: 19px;
@@ -25,16 +23,11 @@
   text-align: center;
 }
 
-.page-footer__social {
-  margin-top: 4px;
-}
-
 .page-footer__copyright {
   position: relative;
+  padding: 23px 15px;
 
-  margin: 0 auto;
-
-  width: 139px;
+  margin: 0 53px;
 
   color: #000000;
 
@@ -59,11 +52,11 @@
 .page-footer__copyright-icon {
   position: absolute;
 
-  top: 2px;
-  right: -8px;
+  top: -3px;
+  right: -23px;
 
-  width: 44px;
-  height: 34px;
+  width: 42px;
+  height: 45px;
 
   cursor: pointer;
 
