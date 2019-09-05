@@ -25,62 +25,8 @@
   text-align: center;
 }
 
-.social-links {
-  font-size: 0;
-}
-
-.social-link {
-  position: relative;
-
-  display: inline-block;
-
-  margin: 0 3px;
-
-  width: 46px;
-  height: 48px;
-
-  font-size: 0;
-
-  background-color: #f1f1f1;
-
-  &:hover {
-    background-color: #669ec0;
-  }
-
-  &:active {
-    background-color: #5496bd;
-  }
-
-  &:active .social-link__icon {
-    fill: #88b6d1;
-  }
-}
-
-.social-link__icon {
-  position: absolute;
-
-  top: 50%;
-  left: 50%;
-
-  margin-top: -9px;
-  margin-left: -9px;
-
-  fill: #ffffff;
-
-  &--instagram {
-    width: 22px;
-    height: 21px;
-  }
-
-  &--facebook {
-    width: 15px;
-    height: 28px;
-  }
-
-  &--twitter {
-    width: 23px;
-    height: 20px;
-  }
+.page-footer__social {
+  margin-top: 4px;
 }
 
 .page-footer__copyright {

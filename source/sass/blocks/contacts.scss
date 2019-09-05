@@ -1,0 +1,80 @@
+/**
+* ===========================================================
+* CONTACTS SECTION
+* ===========================================================
+*/
+.contacts {
+  width: 320px;
+
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 27px;
+}
+
+.contacts__header {
+  margin: 0;
+  margin-bottom: 22px;
+
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contacts__title {
+  color: #000000;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+
+  margin: 0;
+  margin-left: 28px;
+  padding: 0;
+}
+
+.contacts__info {
+  width: 100%;
+
+  border-collapse: collapse;
+  margin-bottom: 31px;
+}
+
+.contacts__info tr {
+  color: #444444;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+
+  border: none;
+}
+
+.contacts__value,
+.contacts__field {
+  color: #444444;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+
+  vertical-align: top;
+
+  padding: 9px 30px;
+}
+
+.contacts__value {
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 26px;
+}
+
+.contacts__field {
+  padding-top: 3px;
+  padding-right: 0;
+  padding-left: 4px;
+}
+
+.contacts__btn {
+  padding: 13px 54px;
+  margin-left: 30px;
+}

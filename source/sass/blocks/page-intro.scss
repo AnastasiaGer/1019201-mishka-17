@@ -4,15 +4,13 @@
 * ===========================================================
 */
 .page-intro {
-  position: relative;
-
-  width: 320px;
-
-  padding: 20px 25px;
+  height: 373px;
 
   background-color: #f1f1f1;
 
   &--decorated {
+    margin-top: -17px;
+
     background-image: url("../img/hero-mobile@1x.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -22,45 +20,59 @@
       background-image: url("../img/hero-mobile@2x.jpg");
     }
   }
+
+  &--grey {
+    height: 177px;
+  }
 }
 
 .page-intro__header {
-  margin: 74px 12px;
-  margin-bottom: 125px;
-  width: 244px;
-  height: 87px;
-  color: #010000;
+  color: #000000;
+
   font-size: 27px;
   font-weight: 700;
   line-height: 30px;
 
   text-align: center;
+
+  &--decorated {
+    margin: 0;
+    padding: 88px 4px;
+  }
+
+  &--grey {
+    margin: 0;
+    padding-top: 62px;
+  }
+}
+
+.page-intro__header--decorated br {
+  display: inline;
 }
 
 .page-intro__liks {
   width: 320px;
   height: 105px;
+
+  margin-top: -73px;
 }
 
-.page-intro__list {
+.page-intro__liks-list {
   margin: 0;
   padding: 0;
 
   list-style-type: none;
 }
 
-.page-intro__link {
-  text-align: left;
-  text-decoration: none;
-
+.page-intro__list-item {
+  position: relative;
   color: #ffffff;
 
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
-  list-style-type: none;
 
-  padding: 32px 18px;
+  padding: 27px 29px;
 
   &--interior {
     background-color: #63d1bb;
@@ -69,6 +81,51 @@
   &--toys {
     background-color: #56c3b2;
   }
+}
+
+.page-intro__list-item--interior::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 62px;
+
+  opacity: 0.5;
+
+  top: 23px;
+  right: 36px;
+
+  background-image: url("../img/icon-interior.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page-intro__list-item--toys::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+
+  opacity: 0.5;
+
+  top: 21px;
+  right: 27px;
+
+  background-image: url("../img/icon-toy.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page-intro__list-item br {
+  display: inline;
+}
+
+.page-intro__link {
+  text-decoration: none;
+  color: #ffffff;
+
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 /**

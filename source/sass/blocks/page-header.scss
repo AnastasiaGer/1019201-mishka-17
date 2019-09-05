@@ -4,8 +4,14 @@
   * ===========================================================
 */
 .page-header {
+  width: 320px;
   margin: 0;
   padding: 0;
+}
+
+.page-header__logo {
+  height: 79px;
+  position: relative;
 }
 
 .page-header__top-logo {
@@ -27,7 +33,13 @@
   * ===========================================================
 */
 
-@media (min-width: $tablet-width) {
+@media (min-width: $tablet-max-width) {
+  .page-header {
+    width: $tablet-max-width;
+
+    margin: 0 auto;
+  }
+
   .page-header__logo {
     order: 2;
     height: 518px;
@@ -39,7 +51,13 @@
   * ===========================================================
 */
 
-@media (min-width: $desktop-width) {
+@media (min-width: $desktop-max-width) {
+  .page-header {
+    width: $desktop-max-width;
+
+    margin: 0 auto;
+  }
+
   .page-header__logo {
     height: 518px;
   }
